@@ -21,7 +21,7 @@ void main()
 		if (fa * fc > 0)
 		{
 			a = c;
-			fa = a + sqrt(a) + pow(a, 1 / 3.) - 2.5;
+			fa = sqrt(1 - 0.4 * a * a) - asin(a);
 		}
 		else
 		{
